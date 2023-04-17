@@ -408,3 +408,284 @@ nav .box ul .active:hover{
 #fifth-section .box .card img:hover{
     transform: scale(1.1);
 }
+/*sixth section*/
+#sixth-section{
+    padding:5em;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+#sixth-section .box{
+    width:1150px;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sixth-section .box .img-box{
+    width:440px;
+    position: relative;
+}
+#sixth-section .box .img-box .main-pic{
+    width:100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+#sixth-section .box .img-box .flower{
+    position: absolute;
+    transform: scaleX(-1);
+    width:230px;;
+    bottom:-50px;
+    left:-60px;
+}
+#sixth-section .box .text-box{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+#sixth-section .box .text-box h1{
+    font-size: 3.2em;
+    font-weight: 600;
+    width:490px;
+    font-family: var(--heading-font);
+    color:var(--secondary-color);
+}
+#sixth-section .box .text-box p{
+    font-size: 1.1em;
+    line-height: 25px;
+    font-family: var(--text-font);
+    color: var(--main-color);
+    width:470px;
+}
+#sixth-section .box .text-box .list{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+#sixth-section .box .text-box .list .item{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+#sixth-section .box .text-box .list .item .left i{
+    color:var(--third-color);
+}
+#sixth-section .box .text-box .list .item .right{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+#sixth-section .box .text-box .list .item .right h1{
+    font-size:1.3em;
+}
+#sixth-section .box .text-box .list .item .right p{
+    font-size: 1em;
+}
+/*seventh-section*/
+#seventh-section{
+    padding:5em;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#seventh-section .box{
+    width:1150px;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#seventh-section .box .text-box{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+#seventh-section .box .text-box h1{
+    font-size:3.2em;
+    font-weight: 600;
+    color:var(--secondary-color);
+    font-family: var(--heading-font);
+}
+#seventh-section .box .text-box p{
+    font-size:1.1em;
+    color:var(--main-color);
+    font-family: var(--text-font);
+    line-height: 30px;
+    width:460px;
+}
+#seventh-section .box .text-box div{
+    font-family: var(--text-font);
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    color:var(--third-color);
+    font-weight: 600;
+    font-size:0.9em;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+#seventh-section .box .text-box div:hover{
+    color:var(--secondary-color);
+}
+#seventh-section .box .img-box{
+    width:400px;
+    position: relative;
+}
+#seventh-section .box .img-box .main-pic{
+    width:100%;
+    object-fit: cover;
+}
+#seventh-section .box .img-box .flower{
+    position: absolute;
+    width:200px;
+    bottom:-20px;
+    left:-80px;
+    transform: scaleX(-1);
+}
+/*eighth section*/
+#eighth-section{
+    padding:5em;
+    display: flex;
+    justify-content: center;
+}
+#eighth-section .box{
+    width:1150px;
+    max-width: 1170px;
+    height:300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#eighth-section .box::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color);
+    top:0;
+    left:0;
+    opacity:0.6;
+}
+#eighth-section .box .text-box{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    z-index: 1;
+    color:white;
+}
+#eighth-section .box .text-box h1{
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: 2.8em;
+}
+#eighth-section .box .text-box p{
+    font-family: var(--text-font);
+    width:460px;
+    line-height: 25px;
+}
+#eighth-section .box button{
+    color:white;
+    font-family: var(--text-font);
+    border:none;
+    background-color: var(--third-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding:15px;
+    width:148px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    z-index: 1;
+}
+#eighth-section .box button:hover{
+    background-color: var(--secondary-color);
+}
+/*nineth-section*/
+#nineth-section{
+    padding:5em;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#nineth-section .box{
+    width:1150px;
+    max-width:1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    text-align: center;
+}
+#nineth-section .box h1{
+    font-size:3.2em;
+    font-family: var(--heading-font);
+    color:var(--secondary-color);
+    font-weight: 600;
+    width:500px;
+    line-height: 60px;
+}
+#nineth-section .box p{
+    font-size:1.1em;
+    font-family: var(--text-font);
+    color: var(--main-color);
+    width: 480px;
+    line-height: 25px;
+}
+#nineth-section .box .cards{
+    margin-top: 50px;
+    display: flex;
+    gap:60px;
+}
+#nineth-section .box .cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding:30px;
+    width:340px;
+    border-radius: 5px;
+    box-shadow:none;
+    transition: .3s ease-in-out;
+    position: relative;
+}
+#nineth-section .box .cards .card i{
+    position: absolute;
+    color:var(--third-color);
+}
+#nineth-section .box .cards .card .fa-quote-left{
+    left:20px;
+    top:10px;
+}
+#nineth-section .box .cards .card .fa-quote-right{
+    right:20px;
+    bottom:10px;
+}
+#nineth-section .box .cards .card:hover{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+#nineth-section .box .cards .card img{
+    width:72px;
+    height: 72px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+#nineth-section .box .cards .card p{
+    width:250px;
+}
+#nineth-section .box .cards .card h1{
+    font-size:1.5em;
+}
+#nineth-section .box .cards .card h2{
+    color:gray;
+    text-transform: uppercase;
+    font-family: var(--text-font);
+    font-weight: 600;
+}
