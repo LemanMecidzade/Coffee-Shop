@@ -689,3 +689,204 @@ nav .box ul .active:hover{
     font-family: var(--text-font);
     font-weight: 600;
 }
+/*tenth section*/
+#tenth-section{
+    padding:5em;
+    background-color: #1e151f;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#tenth-section .img-1{
+    position: absolute;
+    width:500px;
+    top:150px;
+    left:-200px;
+}
+#tenth-section .img-1 .flower-1,
+#tenth-section .img-2 .flower-2{
+    width:100%;
+    object-fit: cover;
+}
+#tenth-section .img-2{
+    position: absolute;
+    width:200px;
+    bottom:110px;
+    right:30px;
+}
+#tenth-section .img-2 .flower-2{
+    transform: scaleX(-1);
+}
+#tenth-section .box{
+    width:1150px;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-around;
+    padding-top:2em;
+}
+#tenth-section .box h1{
+    color:white;
+    font-family: var(--heading-font);
+    font-size: 3.2em;
+    font-weight: 600;
+}
+#tenth-section .box .text-box{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+#tenth-section .box .text-box p{
+    color:lightgray;
+    font-family: var(--text-font);
+    line-height: 25px;
+    width:480px;
+    font-size: 1.1em;
+}
+#tenth-section .box .text-box div{
+    font-family: var(--text-font);
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    color:var(--third-color);
+    font-weight: 600;
+    font-size:0.9em;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+#tenth-section .box .text-box div:hover{
+    color:white;
+}
+#tenth-section .box .text-box .schedule{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    border:1px solid #ecc493;
+    padding:50px;
+}
+#tenth-section .box .text-box .schedule h1{
+    font-size:1.5em;
+    text-transform: capitalize;
+}
+#tenth-section .box .text-box .schedule .day{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#tenth-section .box .text-box .schedule .day h1{
+    font-family: var(--text-font);
+    font-size:1.2em;
+    font-weight: 500;
+    flex-grow:1;
+}
+#tenth-section .box .text-box .schedule .day hr{
+    border:none;
+    border-bottom:1px solid #ecc493;
+    flex-grow:5;
+    margin-right:10px;
+}
+#tenth-section .box .text-box .schedule .day span{
+    color:white;
+    flex-grow: 1;
+}
+/*footer*/
+footer{
+    padding:0 5em;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+footer .box{
+    padding:5em 0;
+    width:1150px;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+footer .box .top{
+    display: flex;
+    justify-content: space-between;
+}
+footer .box .top .left{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+footer .box .top .left h1{
+    font-size:1.5em;
+    font-weight: 600;
+    font-family: var(--heading-font);
+    color:var(--secondary-color);
+}
+footer .box .top .left p{
+    font-family: var(--text-font);
+    color:var(--main-color);
+    width:370px;
+    line-height: 25px;
+}
+footer .box .top .active{
+    text-transform: uppercase;
+    font-family:var(--text-font);  
+    font-weight: 600;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+footer .box .top .center ul{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-family: var(--text-font);
+    font-size:0.9em;
+}
+footer .box .top .center ul li span{
+    font-weight: 600;
+}
+footer .box .top .center ul li span:hover{
+    color:var(--third-color);
+}
+footer .box .top .right{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+footer .box .top .right .group{
+    display: flex;
+}
+footer .box .top .right .group input{
+    border:none;
+    padding:10px;
+    width:60%;
+    font-family: var(--text-font);
+}
+footer .box .top .right .group button{
+    color:white;
+    font-family: var(--text-font);
+    width:40%;
+    border:none;
+    background-color: var(--third-color);
+    font-weight: 600;
+    padding:15px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+footer .box .top .right .group button:hover{
+    background-color: var(--secondary-color);
+}
+footer .box .top .right p{
+    font-style: italic;
+    font-family: var(--text-font);
+    color:var(--main-color);
+    width:350px;
+    line-height: 25px;
+    font-size: 0.9em;
+}
+footer .box .top{
+    padding-bottom: 40px;
+    border-bottom:1px solid lightgray;
+}
+footer .box .bottom p{
+    font-size:0.9em;
+    color:gray;
+    font-family: var(--text-font);
+}
