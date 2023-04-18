@@ -7,7 +7,9 @@
     --secondary-color:#2b231d;
     --third-color:#d74544;
 }
-
+::selection{
+    background-color:beige;
+}
 *{
     box-sizing: border-box;
 }
@@ -101,6 +103,7 @@ nav .box ul .active:hover{
 }
 #first-section .box .text-box h1{
     font-size: 5em;
+    line-height: 100px;
     font-family: var(--heading-font);
     color:var(--secondary-color);
     font-weight: 600;
@@ -132,18 +135,12 @@ nav .box ul .active:hover{
 }
 /*second section*/
 #second-section{
-    padding:0 5em;
+    padding:5em;
+    width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    position: relative;
-}
-#second-section .background{
-    position: absolute;
-    object-fit: cover;
-    width:100%;
-    left:0;
-    top:0;
-    z-index:-1;
 }
 #second-section .box{
     width:1150px;
@@ -164,6 +161,7 @@ nav .box ul .active:hover{
     color:var(--secondary-color);
     width:500px;
     font-family: var(--heading-font);
+    line-height: 65px;
 }
 #second-section .box .text-box p{
     font-size:1.1em;
@@ -203,21 +201,14 @@ nav .box ul .active:hover{
 }
 /*third section*/
 #third-section{
-    padding:0 5em;
+    padding:5em;
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     position: relative;
 }
-#third-section .background{
-    position: absolute;
-    object-fit: cover;
-    width:100%;
-    left:0;
-    top:0;
-    z-index:-1;
-}
 #third-section .box{
-    padding:5em 0;
     width:1150px;
     max-width: 1170px;
     display: flex;
@@ -232,6 +223,9 @@ nav .box ul .active:hover{
     color:var(--secondary-color);
     font-family: var(--heading-font);
     width:400px;
+}
+#third-section .box>h1{
+    line-height: 65px;
 }
 #third-section .box p{
     font-size:1.1em;
@@ -452,6 +446,9 @@ nav .box ul .active:hover{
     font-family: var(--heading-font);
     color:var(--secondary-color);
 }
+#sixth-section .box .text-box>h1{
+    line-height: 65px;
+}
 #sixth-section .box .text-box p{
     font-size: 1.1em;
     line-height: 25px;
@@ -560,6 +557,7 @@ nav .box ul .active:hover{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-attachment: fixed;
 }
 #eighth-section .box::after{
     content: "";
@@ -612,7 +610,7 @@ nav .box ul .active:hover{
     width:100%;
     display: flex;
     justify-content: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 #nineth-section .box{
